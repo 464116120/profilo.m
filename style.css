@@ -28,7 +28,8 @@ a{
 .header .text{
   font-size: 23px;
   font-family: 500;
-  
+  animation: 
+  1s tup linear alternate;
 }
 .header .icon{
  
@@ -275,11 +276,11 @@ body, html {
   
 }
 .img:hover{
- transform: scale(1.1);
+ transform: scale(1);
  
 }
 footer{
-  box-shadow: 1px 0px -1px #0D0D0D;
+  box-shadow: 1px 0px -1px #0E0E0E00;
   width: 57%;
   border-radius: 10px;
   text-align: center ;
@@ -289,7 +290,7 @@ footer{
   
   transform: translateX(
   
- 75px
+ 78px
   );
 }
 footer .container{
@@ -333,4 +334,8 @@ footer ion-icon{
   
   animation: 3s tup linear alternate;
   
+}
+.cont:hover{
+  transform: translateY(-10px);
+  transition: 1s;
 }
